@@ -1,0 +1,77 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+
+*, *::before, *::after {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+body{
+    font-family: "Poppins", sans-serif !important;
+    font-optical-sizing: auto;
+}
+
+p {
+    font-size: 16px !important;
+}
+
+#emoji1 {
+    height: 50px;
+    width: 75px;
+}
+
+#emoji {
+    height: 35px;
+    width: 35px;
+}
+
+#icons {
+    height: 25px;
+    width: 25px;
+}
+#intro_container, #project_container 
+#about_container{
+    height: 100vh;
+}
+
+#contact, #about_container {
+    margin-top: 90px !important;
+}
+
+#contactpane {
+    margin-top: 50px !important;
+    margin-bottom: 80px !important;
+}
+
+.my_image {
+    max-width: 100%;
+}
+
+#aboutMe_container {
+    padding-right: 60px;
+    text-align: justify;
+}
+
+#links a {
+    text-decoration: none;
+    color: #000;
+    padding-right: 10px;
+}
+
+.vertical-center {
+    top: 50%;
+    transform: translateY(50%);
+}
+@media screen and (max-width: 720px) {
+    #intro_container {
+      max-height: 60vh !important ;
+    }
+
+    #button_contact {
+        margin-bottom: 80px !important;
+    }
+    #aboutMe_container{
+        padding: 0px;
+    }
+  }
+
