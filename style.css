@@ -47,11 +47,6 @@ p {
     max-width: 100%;
 }
 
-#aboutMe_container {
-    padding-right: 60px;
-    text-align: justify;
-}
-
 #links a {
     text-decoration: none;
     color: #000;
